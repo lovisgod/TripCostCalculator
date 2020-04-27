@@ -45,8 +45,8 @@ class FuelForm extends StatefulWidget {
           children: <Widget>[
             Padding(
               padding: EdgeInsets.only(
-                top: 5.0,
-                bottom: 5.0
+                top: 10.0,
+                bottom: 10.0
               ),
               child:  TextField( // we can use the onsubmitted here too
               controller: distanceController, // the .text value of this get changed when the there is a change
@@ -64,8 +64,8 @@ class FuelForm extends StatefulWidget {
             // second text field
             Padding(
               padding: EdgeInsets.only(
-                top: 5.0,
-                bottom: 5.0
+                top: 10.0,
+                bottom: 10.0
               ),
               child:  TextField( // we can use the onsubmitted here too
               controller: avgController, // the .text value of this get changed when the there is a change
@@ -83,8 +83,8 @@ class FuelForm extends StatefulWidget {
             // third text field
             Padding(
               padding: EdgeInsets.only(
-                top: 5.0,
-                bottom: 5.0
+                top: 10.0,
+                bottom: 10.0
               ),
               child:   
               Row(
